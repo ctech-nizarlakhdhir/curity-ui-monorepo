@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@curity/services/http": ["libs/services/http/src/index.ts"],
+      "@curity/services/launch-darkly": [
+        "libs/services/launch-darkly/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
